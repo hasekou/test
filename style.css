@@ -1,0 +1,414 @@
+@charset "utf-8";
+* *::after *::before{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  font-size: 62.5%;
+  background-color: rgb(49, 47, 47);
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+a:link,a:checked,a:hover,a:active{
+  color: #fff;
+  text-decoration: none;
+}
+/* ヘッダー */
+.wrapper{
+  background: url(../images/DJI_0004.png) no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.header{
+  margin: 0;
+}
+.top-logo{
+  display: block;
+  float: left;
+  width: 100px;
+  height: 70px;
+  background: url(../images/グループ\ 6.png) no-repeat ;
+  background-size: contain;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+}
+.top-logo a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.top-nav{
+  display: block;
+  float: right;
+  margin: 0;
+}
+.top-nav ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.tnav-item{
+  display: inline-block;
+  margin: 20px 10px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.tnav-item a{
+  color: rgb(250, 250, 250);
+}
+.tnav-item:hover{
+  opacity: 0.75;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/* メイン */
+.home{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.home-text{
+  margin: 100px auto 0;
+}
+.home-text h1{
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 50px
+}
+.home-text p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.link-contact{
+  display: block;
+  text-align: center;
+  width: 40%;
+  height: 80px;
+  margin: 60px auto 0;
+  background-color: rgb(30, 176, 202);
+  border-radius: 40px 40px;
+}
+.link-contact a{
+  width: 100%;
+  height: 100%;
+}
+.link-contact h2{
+  color: #fff;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 40px 40px
+}
+.link-contact:hover{
+  opacity: 0.85;
+}
+/* アバウト */
+.about{
+  background: url(../images/マスクグループ\ 5.png) no-repeat;
+  background-size: cover;
+}
+.about-text{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+.about-text h1{
+  font-size: 2.4rem;
+  margin: 0;
+}
+.about-text strong{
+  color: rgb(30, 176, 202);
+}
+.about-text p{
+  font-size: 1.2rem;
+  padding: 10px 0 50px;
+  line-height: 150%;
+}
+/* サービス */
+.services{
+  padding: 50px 0 80px;
+  background: url(../images/マスクグループ\ 6.jpg) no-repeat;
+  background-size: cover;
+}
+.services-text{
+  text-align: center;
+  font-size: 1.0rem;
+}
+.s-h1{
+  margin: 0;
+  font-size: 2.5rem;
+}
+.s-h2{
+  margin: 0;
+  font-weight: normal
+}
+/* サービスのボックス */
+.sitem{
+  display: block;
+  float: left;
+  width: 320px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 70px 45px 70px;
+}
+.s-title{
+  background: url(../images/マスクグループ\ 3.png) no-repeat;
+  background-size: cover;
+}
+.s-h3{
+  margin: 0;
+  padding: 10px 10px 0;
+  font-size: 1.2rem;
+}
+.s-h4{
+  margin: 0;
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+.s-body{
+  background-color: #fff;
+  padding-bottom: 25px;
+}
+.s-body p,.s-body li{
+  color: black;
+}
+.s-text1{
+  margin: 0;
+  font-size: 0.95rem;
+  padding: 20px 0 20px;
+}
+.s-text2{
+  font-size: 0.9rem;
+  height: 55px;
+  margin: 0;
+  font-weight: bolder;
+}
+.s-list ul{
+  margin: 0 auto ;
+  padding: 5px 0 5px 3px;
+  list-style: none;
+  border: 1px solid black;
+  width: 80%;
+  background-color: rgb(206, 197, 197);
+  text-align: left;
+}
+.s-list li{
+  font-size: 0.65rem
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/* お問い合わせ */
+.contact{
+  margin: 0;
+  background: url(../images/マスクグループ\ 7.png) no-repeat;
+  background-size: cover;
+  padding: 60px 0 80px;
+}
+.c-title{
+  margin: 0;
+  text-align: center;
+  font-size: 2.4rem;
+}
+.c-text{
+  margin: 20px 0 50px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.c-text strong{
+  color: rgb(30, 176, 202)
+}
+.table{
+  margin: 30px 20% 40px ;
+}
+.table th{
+  padding: 0 20px 20px 0;
+  font-size: 0.9rem;
+}
+.table td{
+  font-size: 0.8rem;
+  padding: 0 10px 20px 0; 
+}
+.red{
+  background-color: red;
+}
+input[type="text"]{
+  width: 350px;
+  height: 30px;
+  border-radius: 10px;
+}
+.gray{
+  background-color: gray;
+}
+textarea{
+  padding-right: 10px;
+  width: 350px;
+  height: 100px;
+  border-radius: 10px;
+}
+.submit{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(30, 176, 202);
+  width: 15%;
+  height: 40px;
+  border-radius: 20px;
+}
+input[type="submit"]{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 176, 202);
+  border-radius: 20px;
+  color: #fff;
+}
+.submit:hover{
+  opacity: 0.85;
+}
+/* フッター */
+.footer{
+  background: url(../images/マスクグループ\ 4.jpg) no-repeat;
+  background-size: cover;
+}
+.end-nav ul{
+  list-style: none;
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+}
+.end-nav li{
+  display: inline-block;
+  margin: 0 25px;
+}
+.end-nav a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem
+}
+.end-nav a:hover{
+  opacity: 0.65;
+}
+.end-logo{
+  display: block;
+  margin: 20px auto 0;
+  width: 100px;
+  height: 70px;
+  background: url(../images/グループ\ 6.png) no-repeat;
+  background-size: contain;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.end-logo a{
+  width: 100%;
+  height: 100%;
+}
+.footer p{
+  margin: 0 ;
+  text-align: right;
+  font-size: 0.7rem;
+  padding: 0 0 10px 10px;
+}
+/* レスポンシブデザイン */
+@media  screen and (min-width:650px){
+   .br-sp{ display: none;}
+   .br-pc{display: block;}
+}
+@media screen and (max-width:650px){
+   .br-sp{display: block;}
+   .br-pc{display:  none;}
+   /* ヘッダーとホーム */
+   .top-logo{
+     width: 50%;
+     height: 50%;
+   }
+   .tnav-item{
+     font-size: 0.65rem;
+     margin: 10px ;
+   }
+   .home-text h1{
+     font-size: 1.4rem;
+     font-weight: bold;
+   }
+   .home-text p{
+     font-size: 0.9rem;
+     font-weight: bold;
+   }
+   .link-contact h2{
+     font-size: 0.9rem;
+   }
+   /* アバウト */
+   .about-text{
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+   .about-text h1{
+     font-size: 1.6rem;
+   }
+   .about-text p{
+     font-size: 1rem;
+     line-height: 140%;
+   }
+   /* サービス */
+   .services{
+     padding-bottom: 30px;
+   }
+   .s-h1{
+     font-size: 1.5rem;
+   }
+   .s-h2{
+     font-size: 1.2rem;
+   }
+   /* サービスのボックス */
+   .sitem{
+     float: none;
+     margin: 70px auto;
+   }
+   /* お問い合わせ */
+   .c-title{
+     font-size: 1.4rem;
+   }
+   .c-text{
+     font-size: 0.9rem;
+   }
+   .table{
+     margin: 0 10%;
+   }
+   .table th{
+     padding: 0 7px 20px;
+     font-size: 0.8rem;
+   }
+   .red,.gray{
+     font-size: 0.7rem;
+   }
+   input[type="text"]{
+     width: 190px;
+   }
+   textarea{
+     width: 180px;
+   }
+   /* フッター */
+   .end-nav ul{
+     padding-left: 0;
+   }
+   .end-nav li{
+     margin: 0 12px ;
+     font-size: 0.9rem;
+   }
+   .end-logo{
+     width: 80px;
+     height: 60px;
+     margin-bottom: 10px;
+   }
+   .footer p{
+     font-size: 0.5rem;
+     padding-right: 7px;
+   }
+}
